@@ -65,9 +65,9 @@ class Tariff
     public $currency;
 
     /**
-     * Список регионов
-     * @Type("array<CdekSDK2\Dto\TariffService>")
-     * @var TariffService[]
+     * Список дополнительных услуг
+     * @Type("array<CdekSDK2\BaseTypes\Service>")
+     * @var Service[]
      */
     public $services;
 }
