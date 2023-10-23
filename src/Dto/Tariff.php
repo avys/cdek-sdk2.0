@@ -52,8 +52,8 @@ class Tariff
 
     /**
      * Стоимость доставки с учетом дополнительных услуг
-     * @Type("integer")
-     * @var integer
+     * @Type("float")
+     * @var float
      */
     public $total_sum;
 
